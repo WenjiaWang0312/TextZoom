@@ -1,5 +1,8 @@
 This is a super-resolution dataset containing paired LR-HR scene text images.
 
+Dataset: To be denounced
+Paper: To be denounced
+
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
 ![Synthetic LR vs Real LR](syn_real.jpg)
 
