@@ -1,6 +1,14 @@
 This is a super-resolution dataset containing paired LR-HR scene text images.
 
-Dataset: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw) password: * kybq
+TextZoom Dataset (allocated by size): [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**
+
+Cropped text images from SR_RAW (allocated by bounding boxes): [BaiduNet Disk](https://pan.baidu.com/s/1deWqGQTbiITrayFNrrJg-w) **ykbq**
+
+Cropped text images from RealSR (allocated by bounding boxes): [BaiduNet Disk](https://pan.baidu.com/s/1gjwQ05THh-MJv3oChvm3FA) **f615**
+
+Annotation of SR_RAW (bounding boxs and word labels) [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg) password: **kmme**
+
+Annotation of RealSR (bounding boxs and word labels) [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw) password: **i52c**
 
 Paper: [arxiv](https://arxiv.org/abs/2005.03341)
 
