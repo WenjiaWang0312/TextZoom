@@ -8,6 +8,7 @@
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
 ![Synthetic LR vs Real LR](syn_real.jpg)
+![Synthetic LR vs Real LR]<img src="syn_real.jpg" width="200px" />
 
 We allocate our dataset into 3 part following difficulty: easy, medium and hard subset. The misalignment and ambiguity increases as the difficulty increases.
 ![Example Images](easy_medium_hard.jpg)
@@ -20,6 +21,6 @@ Cropped text images from SR_RAW (allocated by bounding boxes): [BaiduNet Disk](h
 
 Cropped text images from RealSR (allocated by bounding boxes): [BaiduNet Disk](https://pan.baidu.com/s/1gjwQ05THh-MJv3oChvm3FA).  password: **f615**
 
-Annotation of SR_RAW (bounding boxs and word labels) [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg). password: **kmme**
+Annotation of SR_RAW (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg). password: **kmme**
 
-Annotation of RealSR (bounding boxs and word labels) [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
+Annotation of RealSR (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
