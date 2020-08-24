@@ -1,6 +1,6 @@
 This is a super-resolution dataset containing paired LR-HR scene text images.
 
-Dataset: To be denounced
+Dataset: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw) password: * kybq
 Paper: To be denounced
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
