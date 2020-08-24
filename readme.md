@@ -2,9 +2,9 @@
 
 ## TextZoom Dataset (allocated by size): 
 
-Paper: [arxiv](https://arxiv.org/abs/2005.03341)
+### Paper: [arxiv](https://arxiv.org/abs/2005.03341)
 
-[Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**
+### Data: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
 ![Synthetic LR vs Real LR](syn_real.jpg)
