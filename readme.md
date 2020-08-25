@@ -4,7 +4,7 @@
 
 Paper: [arxiv](https://arxiv.org/abs/2005.03341)
 
-Data: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**
+Data: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**; 
 [Google Drive](https://drive.google.com/drive/folders/1WRVy-fC_KrembPkaI68uqQ9wyaptibMh?usp=sharing)
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
@@ -19,17 +19,17 @@ For each pair of LR-HR images, we provide the annotation of the case sensitive c
 
 ## Other data
 
-- Cropped text images from SR_RAW (.png, allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1deWqGQTbiITrayFNrrJg-w).  password: **ykbq**
+- Cropped text images from SR_RAW (.png, allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1deWqGQTbiITrayFNrrJg-w).  password: **ykbq**; 
 [Google Drive](https://drive.google.com/file/d/1-5T89MPLtDhQWdtiqXFbBqE5bTKA5VEA/view?usp=sharing)
 
-- Cropped text images from RealSR (.png, allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1gjwQ05THh-MJv3oChvm3FA).  password: **f615**
+- Cropped text images from RealSR (.png, allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1gjwQ05THh-MJv3oChvm3FA).  password: **f615**; 
 [Google Drive](https://drive.google.com/file/d/1xDqEA9OHYvyoycPqaMER-QZM8LI20fVN/view?usp=sharing)
 
-- Annotation of SR_RAW (.json, bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg). password: **kmme**
+- Annotation of SR_RAW (.json, bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg). password: **kmme**; 
 [Google Drive](https://drive.google.com/file/d/1zvxtjZ8-IGHgFKwDoE8fs3G6RlZrA3v5/view?usp=sharing)
 <img src="sr_raw.jpg" width=80% />
 
-- Annotation of RealSR (.json bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
+- Annotation of RealSR (.json bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**; 
 [Google Drive](https://drive.google.com/file/d/1HX1hTStsIKt23HLN2F2Q74h8bbdu205a/view?usp=sharing)
 <img src="real_sr.jpg" width=50% />
 
