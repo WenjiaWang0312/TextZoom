@@ -27,46 +27,46 @@ Annotation of SR_RAW (bounding boxs and word labels): [Baidu NetDisk](https://pa
 Annotation of RealSR (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
 
 
-*architecture of json: (sr_raw.json and real_sr.json have the same arch)*
+    *architecture of json: (sr_raw.json and real_sr.json have the same arch)*
 
-*'position' is the bounding box,
+    *'position' is the bounding box,
 
-'rawFileName' is the original image name, you need to download the RealSR dataset.
+    'rawFileName' is the original image name, you need to download the RealSR dataset.
 
-'words' is the word label.
+    'words' is the word label.
 
-'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical (clockwise 90 degrees), 'h' means horizontal.*
-```
-with open('real_sr.json') as f:
-    d=json.load(f)
-d['0']=
-{'channal': '3',
- 'height':  '2300',
- 'id':      'cbe0e4cba6ba6cd42d8ed4779087214a',
- 'polygons': {'wordRect': 
-             [{'line-type': 'straight',
-                'position': [{'x': '247.94625', 'y': '186.31634'},
-                 {'x': '99.29263', 'y': '186.60167'},
-                 {'x': '99.29263', 'y': '165.77304'},
-                 {'x': '247.94625', 'y': '166.34369'}],
-                'type': 'td',
-                'valid': 'true',
-                **'words': 'QU04029757'**},
-               {'line-type': 'straight',
-                'position': [{'x': '63.18353', 'y': '703.61181'},
-                 {'x': '61.66713', 'y': '542.87290'},
-                 {'x': '127.88347', 'y': '540.85103'},
-                 {'x': '130.41081', 'y': '702.60087'}],
-                'type': 'vn',
-                'valid': 'true',
-                'words': '100'},
-               ...
-               ]},
- 'rawFilePath':   'test',
- 'rawFilename':   'Canon_046_HR.png',
- 'result_version': '1.0',
- 'rotate':    '0',
- 'valid':     'true',
- 'width':     '2500',
- 'wordRect-validity': 'true'}
-```
+    'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical           (clockwise 90 degrees), 'h' means horizontal.*
+    ```
+    with open('real_sr.json') as f:
+        d=json.load(f)
+    d['0']=
+    {'channal': '3',
+     'height':  '2300',
+     'id':      'cbe0e4cba6ba6cd42d8ed4779087214a',
+     'polygons': {'wordRect': 
+                 [{'line-type': 'straight',
+                    'position': [{'x': '247.94625', 'y': '186.31634'},
+                     {'x': '99.29263', 'y': '186.60167'},
+                     {'x': '99.29263', 'y': '165.77304'},
+                     {'x': '247.94625', 'y': '166.34369'}],
+                    'type': 'td',
+                    'valid': 'true',
+                    **'words': 'QU04029757'**},
+                   {'line-type': 'straight',
+                    'position': [{'x': '63.18353', 'y': '703.61181'},
+                     {'x': '61.66713', 'y': '542.87290'},
+                     {'x': '127.88347', 'y': '540.85103'},
+                     {'x': '130.41081', 'y': '702.60087'}],
+                    'type': 'vn',
+                    'valid': 'true',
+                    'words': '100'},
+                   ...
+                   ]},
+     'rawFilePath':   'test',
+     'rawFilename':   'Canon_046_HR.png',
+     'result_version': '1.0',
+     'rotate':    '0',
+     'valid':     'true',
+     'width':     '2500',
+     'wordRect-validity': 'true'}
+    ```
