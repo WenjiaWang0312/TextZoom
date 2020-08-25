@@ -35,7 +35,7 @@ For each pair of LR-HR images, we provide the annotation of the case sensitive c
 
     'position' is the bounding box,
 
-    'rawFileName' is the original image name, you need to download the RealSR dataset.
+    'rawFileName' is the original image name, you need to download the SRRAW and RealSR dataset.
 
     'words' is the word label.
 
