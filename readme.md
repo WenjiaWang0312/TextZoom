@@ -8,11 +8,11 @@
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
 
-<img src="syn_real.jpg" width=80% />
+<img src="syn_real.jpg" width=80% /><div align=center>
 
 We allocate our dataset into 3 part following difficulty: easy, medium and hard subset. The misalignment and ambiguity increases as the difficulty increases.
 
-<img src="easy_medium_hard.jpg" width=80% />
+<img src="easy_medium_hard.jpg" width=80% /><div align=center>
 
 For each pair of LR-HR images, we provide the annotation of the case sensitive character string (including punctuation), the type of the bounding box, and the original focal lengths.
 
@@ -26,16 +26,16 @@ For each pair of LR-HR images, we provide the annotation of the case sensitive c
 
 - Annotation of RealSR (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
 
+```
+    architecture of json: (sr_raw.json and real_sr.json have the same arch)
 
-architecture of json: (sr_raw.json and real_sr.json have the same arch)
+    'position' is the bounding box,
 
-'position' is the bounding box,
+    'rawFileName' is the original image name, you need to download the RealSR dataset.
 
-'rawFileName' is the original image name, you need to download the RealSR dataset.
+    'words' is the word label.
 
-'words' is the word label.
-
-'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical           (clockwise 90 degrees), 'h' means horizontal.
+    'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical           (clockwise 90 degrees), 'h' means horizontal.
 
     
     with open('real_sr.json') as f:
@@ -70,4 +70,4 @@ architecture of json: (sr_raw.json and real_sr.json have the same arch)
      'valid':     'true',
      'width':     '2500',
      'wordRect-validity': 'true'}
-    
+```
