@@ -39,7 +39,8 @@ For each pair of LR-HR images, we provide the annotation of the case sensitive c
 
     'words' is the word label.
 
-    'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical           (clockwise 90 degrees), 'h' means horizontal.
+    'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 
+    'vp' means positive vertical (clockwise 90 degrees), 'h' means horizontal.
 
     
     with open('real_sr.json') as f:
