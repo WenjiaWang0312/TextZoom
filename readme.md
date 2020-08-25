@@ -31,7 +31,7 @@ position is the bounding box,
 rawFileName is the original image name, you need to download the RealSR dataset.
 words is the word label.
 type means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical (clockwise 90 degrees), 'h' means horizontal.
-`
+```
 {'channal': '3',
  'height':  '2300',
  'id':      'cbe0e4cba6ba6cd42d8ed4779087214a',
@@ -61,4 +61,4 @@ type means the direction of bounding box, 'td' means top down, 'vn' means negati
  'valid':     'true',
  'width':     '2500',
  'wordRect-validity': 'true'}
-'
+```
