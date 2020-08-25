@@ -36,6 +36,7 @@ architecture of json: (sr_raw.json and real_sr.json have the same arch)
 'words' is the word label.
 
 'type' means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical           (clockwise 90 degrees), 'h' means horizontal.
+
     ```
     with open('real_sr.json') as f:
         d=json.load(f)
