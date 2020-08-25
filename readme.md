@@ -26,11 +26,11 @@ Annotation of SR_RAW (bounding boxs and word labels): [Baidu NetDisk](https://pa
 
 Annotation of RealSR (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
 
-* architecture of json:
+*architecture of json:
 position is the bounding box,
 rawFileName is the original image name, you need to download the RealSR dataset.
 words is the word label.
-type means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical (clockwise 90 degrees), 'h' means horizontal.
+type means the direction of bounding box, 'td' means top down, 'vn' means negative vertical (counterclockwise 90 degrees), 'vp' means positive vertical (clockwise 90 degrees), 'h' means horizontal.*
 ```
 with open('real_sr.json') as f:
     d=json.load(f)
