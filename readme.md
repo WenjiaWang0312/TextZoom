@@ -18,15 +18,15 @@ For each pair of LR-HR images, we provide the annotation of the case sensitive c
 
 ## Other data
 
-- Cropped text images from SR_RAW (allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1deWqGQTbiITrayFNrrJg-w).  password: **ykbq**
+- Cropped text images from SR_RAW (.png, allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1deWqGQTbiITrayFNrrJg-w).  password: **ykbq**
 
-- Cropped text images from RealSR (allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1gjwQ05THh-MJv3oChvm3FA).  password: **f615**
+- Cropped text images from RealSR (.png, allocated by original images): [BaiduNet Disk](https://pan.baidu.com/s/1gjwQ05THh-MJv3oChvm3FA).  password: **f615**
 
-- Annotation of SR_RAW (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg). password: **kmme**
+- Annotation of SR_RAW (.json, bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/1OQpiItFTiYHhZyhbg1ASWg). password: **kmme**
 
 <img src="sr_raw.jpg" width=80% />
 
-- Annotation of RealSR (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
+- Annotation of RealSR (.json bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
 
 <img src="real_sr.jpg" width=50% />
 
