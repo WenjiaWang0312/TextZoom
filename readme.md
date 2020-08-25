@@ -1,4 +1,4 @@
-# This is a super-resolution dataset containing paired LR-HR scene text images.
+# A super-resolution dataset consists of paired LR-HR scene text images.
 
 ## TextZoom Dataset (allocated by size): 
 
