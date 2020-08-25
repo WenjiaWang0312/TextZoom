@@ -2,11 +2,9 @@
 
 ## TextZoom Dataset (allocated by size): 
 
-### Paper: 
-[arxiv](https://arxiv.org/abs/2005.03341)
+Paper: [arxiv](https://arxiv.org/abs/2005.03341)
 
-### Data: 
-[Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**
+Data: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
 
@@ -30,7 +28,7 @@ For each pair of LR-HR images, we provide the annotation of the case sensitive c
 
 - Annotation of RealSR (bounding boxs and word labels): [Baidu NetDisk](https://pan.baidu.com/s/19-_jnlxJhWrUs_2n9JUsiw). password: **i52c**
 
-<img src="real_sr.jpg" width=80% />
+<img src="real_sr.jpg" width=50% />
 
 ```
     architecture of json: (sr_raw.json and real_sr.json have the same arch)
