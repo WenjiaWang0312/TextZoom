@@ -7,11 +7,25 @@ Paper: [arxiv](https://arxiv.org/abs/2005.03341)
 Data (Lmdb): [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**; 
 [Google Drive](https://drive.google.com/drive/folders/1WRVy-fC_KrembPkaI68uqQ9wyaptibMh?usp=sharing)
 ```
-keys: 
+lmxb keys: 
+
+def buf2PIL(txn, key, type='RGB'):
+    imgbuf = txn.get(key)
+    buf = six.BytesIO()
+    buf.write(imgbuf)
+    buf.seek(0)
+    im = Image.open(buf).convert(type)
+    return im
+    
 nSamples = int(txn.get(b'num-samples'))
+
 label_key = b'label-%09d' % index
+word = str(txn.get(label_key).decode())
+
 img_HR_key = b'image_hr-%09d' % index 
 img_lr_key = b'image_lr-%09d' % index
+img_HR = buf2PIL(txn, img_HR_key, 'RGB')
+img_lr = buf2PIL(txn, img_lr_key, 'RGB')
 ```
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
