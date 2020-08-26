@@ -4,8 +4,11 @@
 
 Paper: [arxiv](https://arxiv.org/abs/2005.03341)
 
-Data: [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**; 
+Data (Lmdb): [Badiu NetDisk](https://pan.baidu.com/s/1PYdNqo0GIeamkYHXJmRlDw). password: **kybq**; 
 [Google Drive](https://drive.google.com/drive/folders/1WRVy-fC_KrembPkaI68uqQ9wyaptibMh?usp=sharing)
+```
+keys: ..
+```
 
 The LR images in TextZoom is much more challenging than synthetic LR images(BICUBIC).
 
