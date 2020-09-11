@@ -17,7 +17,7 @@ Change `TRAIN.VAL.val_data_dir` to your val data path.
 
 - test with textzoom
 
-`python3 main.py --batch_size=1024 --test --resume='your-model.pth' --STN --mask --gradient --vis_dir='vis'`
+`python3 main.py --batch_size=1024 --test --test_data_dir='your-test-lmdb-dataset' --resume='your-model.pth' --STN --mask --gradient --vis_dir='vis'`
 
 - demo with images
 
