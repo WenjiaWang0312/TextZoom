@@ -2,7 +2,6 @@
 
 ## Train and Test
 
-training
 download the Aster model from https://github.com/ayumiymk/aster.pytorch, Moran model from https://github.com/Canjie-Luo/MORAN_v2, 
 CRNN model from https://github.com/meijieru/crnn.pytorch.
 
