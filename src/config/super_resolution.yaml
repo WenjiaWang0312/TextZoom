@@ -1,0 +1,51 @@
+MODEL:
+
+
+TRAIN:
+  train_data_dir: [
+    '../dataset/lmdb/str/TextZoom/train1',
+    '../dataset/lmdb/str/TextZoom/train2',
+  ]
+  batch_size: 512
+  width: 128
+  height: 32
+  epochs: 500
+  cuda: True
+  ngpu: 4
+  workers: 2
+  resume: ''
+  ckpt_dir: './ckpt/'
+  voc_type: 'all' #'digits lower upper all'
+  saveInterval: 200
+  displayInterval: 100 #display loss
+  adadelta: False
+  lr: 0.001
+  adam: True
+  beta1: 0.5
+  manualSeed: 1234
+  max_len: 100
+  keep_ratio: False
+  down_sample_scale: 2
+
+  VAL:
+    val_data_dir: [
+      '../dataset/lmdb/str/TextZoom/test/hard',
+      '../dataset/lmdb/str/TextZoom/test/easy',
+      '../dataset/lmdb/str/TextZoom/test/medium',
+    ]
+    n_vis: 10
+    vis_dir: 'demo'
+    valInterval: 200 #-1, val at the end of epoch
+    rec_pretrained: 'demo.pth.tar'
+    moran_pretrained: 'moran.pth'
+    crnn_pretrained: 'crnn.pth'
+
+TEST:
+  checkpoint: ''
+  test_data_dir: [
+  ]
+
+CONVERT:
+  image_dir:
+  lmdb_dir:
+  n_convert: 10
