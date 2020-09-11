@@ -12,12 +12,15 @@ Change `TRAIN.train_data_dir` to your train data path.
 Change `TRAIN.VAL.val_data_dir` to your val data path.
 
 - train with textzoom
+
 `python3 main.py --batch_size=1024 --STN --mask --gradient --vis_dir='vis'`
 
 - test with textzoom
+
 `python3 main.py --batch_size=1024 --test --resume='your-model.pth' --STN --mask --gradient --vis_dir='vis'`
 
 - demo with images
+
 `python3 main.py --demo --demo_dir='./images/'  --resume='your-model.pth' --STN --mask`
 
 ## TextZoom Dataset (allocated by size): 
