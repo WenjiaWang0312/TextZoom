@@ -1,5 +1,10 @@
 # A super-resolution dataset consists of paired LR-HR scene text images.
 
+## Train and Test
+
+`python3 main.py --batch_size=1024 --STN --mask --gradient --mixed --vis_dir='vis'`
+
+
 ## TextZoom Dataset (allocated by size): 
 
 Paper: [arxiv](https://arxiv.org/abs/2005.03341)
