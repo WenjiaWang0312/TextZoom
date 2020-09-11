@@ -6,19 +6,20 @@ training
 download the Aster model from https://github.com/ayumiymk/aster.pytorch, Moran model from https://github.com/Canjie-Luo/MORAN_v2, 
 CRNN model from https://github.com/meijieru/crnn.pytorch.
 
-change `TRAIN.VAL.rec_pretrained` in src/configs/super_resolution.yaml to your Aster model path, `TRAIN.VAL.moran_pretrained` to your MORAN model path and 
-`TRAIN.VAL.crnn_pretrained` to your CRNN  model path.
-change `TRAIN.train_data_dir` to your train data path.
-change `TRAIN.VAL.val_data_dir` to your val data path.
+Change `TRAIN.VAL.rec_pretrained` in src/configs/super_resolution. change yaml to your Aster model path, `TRAIN.VAL.moran_pretrained` to your MORAN model path and 
+change `TRAIN.VAL.crnn_pretrained` to your CRNN  model path.
 
-train with textzoom
+Change `TRAIN.train_data_dir` to your train data path.
+Change `TRAIN.VAL.val_data_dir` to your val data path.
+
+- train with textzoom
 `python3 main.py --batch_size=1024 --STN --mask --gradient --vis_dir='vis'`
 
-test with textzoom
+- test with textzoom
 `python3 main.py --batch_size=1024 --test --resume='your-model.pth' --STN --mask --gradient --vis_dir='vis'`
 
-demo with single image
-`python3 main.py --demo --demo_dir='xxx'  --resume='your-model.pth' --STN --mask`
+- demo with images
+`python3 main.py --demo --demo_dir='./images/'  --resume='your-model.pth' --STN --mask`
 
 ## TextZoom Dataset (allocated by size): 
 
