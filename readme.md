@@ -13,9 +13,9 @@ Change `TRAIN.VAL.val_data_dir` to your val data path.
 
 - train with textzoom
 
-cd ./src/
+```cd ./src/
 
-`python3 main.py --batch_size=1024 --STN --mask --gradient --vis_dir='vis'`
+python3 main.py --batch_size=1024 --STN --mask --gradient --vis_dir='vis'```
 
 - test with textzoom
 
