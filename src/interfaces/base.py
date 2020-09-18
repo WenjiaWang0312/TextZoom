@@ -149,7 +149,7 @@ class TextBase(object):
         if self.args.arch != 'bicubic':
             model = model.to(self.device)
             image_crit.to(self.device)
-            if cfg.ngpu > 1:
+            if cfg.ngpu >= 1:
                 model = torch.nn.DataParallel(model, device_ids=range(cfg.ngpu))
                 image_crit = torch.nn.DataParallel(image_crit, device_ids=range(cfg.ngpu))
             if self.resume is not '':
