@@ -8,7 +8,7 @@ TRAIN:
   ]
   batch_size: 512
   width: 128
-  height: 32
+  height: 64
   epochs: 500
   cuda: True
   ngpu: 4
