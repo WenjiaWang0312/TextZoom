@@ -41,7 +41,7 @@ class TSRN(nn.Module):
         block_ = [UpsampleBLock(2*hidden_units, 2) for _ in range(upsample_block_num)]
         block_.append(nn.Conv2d(2*hidden_units, in_planes, kernel_size=9, padding=4))
         setattr(self, 'block%d' % (srb_nums + 3), nn.Sequential(*block_))
-        self.tps_inputsize = [height//scale_factor, width//scale_factor]
+        self.tps_inputsize = [32, 64]
         tps_outputsize = [height//scale_factor, width//scale_factor]
         num_control_points = 20
         tps_margins = [0.05, 0.05]
@@ -60,7 +60,7 @@ class TSRN(nn.Module):
     def forward(self, x):
         # embed()
         if self.stn and self.training:
-            # x = F.interpolate(x, self.tps_inputsize, mode='bilinear', align_corners=True)
+            x = F.interpolate(x, self.tps_inputsize, mode='bilinear', align_corners=True)
             _, ctrl_points_x = self.stn_head(x)
             x, _ = self.tps(x, ctrl_points_x)
         block = {'1': self.block1(x)}
