@@ -168,7 +168,7 @@ class TextBase(object):
         return optimizer
 
     def tripple_display(self, image_in, image_out, image_target, pred_str_lr, pred_str_sr, label_strs, index):
-        for i in (range(self.config.TRAIN.VAL.n_vis)):
+        for i in (range(min(image_in.shape[0], self.config.TRAIN.VAL.n_vis) )):
             # embed()
             tensor_in = image_in[i][:3,:,:]
             transform = transforms.Compose(
