@@ -37,7 +37,7 @@ class TextSR(base.TextBase):
         optimizer_G = self.optimizer_init(model)
 
         if not os.path.exists(cfg.ckpt_dir):
-            os.makedirs(cfg.ckpr_dir)
+            os.makedirs(cfg.ckpt_dir)
         best_history_acc = dict(
             zip([val_loader_dir.split('/')[-1] for val_loader_dir in self.config.TRAIN.VAL.val_data_dir],
                 [0] * len(val_loader_list)))
