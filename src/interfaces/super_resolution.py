@@ -158,7 +158,7 @@ class TextSR(base.TextBase):
               'loss_rec {:.3f}| loss_im {:.3f}\t'
               'PSNR {:.2f} | SSIM {:.4f}\t'
               .format(datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                      float(loss_rec.data), 0,
+                      float(loss_rec.data), float(loss_im.data),
                       float(psnr_avg), float(ssim_avg), ))
         print('save display images')
         self.tripple_display(images_lr, images_sr, images_hr, pred_str_lr, pred_str_sr, label_strs, index)
