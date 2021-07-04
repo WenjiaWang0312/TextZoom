@@ -1,5 +1,17 @@
 # A super-resolution dataset consists of paired LR-HR scene text images.
 
+## Requirements
+- 1.0.1 <= torch < 1.6.0
+- torchvision -c pytorch
+- lmdb >= 0.98
+- pillow >= 7.1.2
+- numpy
+- six
+- tqdm
+- python-opencv
+- easydict
+- yaml
+
 ## Train and Test
 
 download the Aster model from https://github.com/ayumiymk/aster.pytorch, Moran model from https://github.com/Canjie-Luo/MORAN_v2, 
