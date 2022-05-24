@@ -1,0 +1,12 @@
+torch==1.3.0
+torchvision
+lmdb >= 0.98
+pillow >= 7.12
+numpy
+six
+tqdm
+opencv-python
+easydict
+yml
+thop
+colour
